@@ -2,6 +2,8 @@
 namespace GDO\Classic;
 
 use GDO\Core\GDO_Module;
+use GDO\UI\GDT_Page;
+use GDO\UI\GDT_Headline;
 
 /**
  * Install this module to load the classic css theme.
@@ -22,6 +24,11 @@ final class Module_Classic extends GDO_Module
 		$this->addCSS('css/gdo6-pulse.css');
 		
 		$this->addJS('js/gdo6-classic.js');
+	}
+	
+	public function onInitSidebar() : void
+	{
+		GDT_Page::instance()->topBar()->addField(GDT_Headline::make()->level(2)->textRaw(GDO_SITENAME));
 	}
 	
 }
