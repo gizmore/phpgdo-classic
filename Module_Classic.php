@@ -9,7 +9,7 @@ use GDO\UI\GDT_Headline;
  * Install this module to load the classic css theme.
  * 
  * @author gizmore
- * @version 7.0.1
+ * @version 7.0.0
  * @since 6.1.0
  */
 final class Module_Classic extends GDO_Module
