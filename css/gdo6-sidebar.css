@@ -38,6 +38,9 @@
 #gdo-header .gdo-bar {
 	padding: 0px 42px;
 }
+#gdo-header > * {
+	margin: 0;
+}
 
 #gdo-pagewrap {
 	min-width: 100%;
