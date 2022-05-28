@@ -22,7 +22,8 @@ a { color: #33f; font-weight: 900; }
 
 /** GDT_Page NAV **/
 #gdo-header h1, #gdo-header h2, #gdo-header h3, #gdo-header h4, #gdo-header h5 {
-	line-height: 64px;
+	line-height: 48px; 
+	margin: 0;
 }
 
 /** Core/Debug.php **/

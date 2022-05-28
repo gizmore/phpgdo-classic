@@ -1,7 +1,7 @@
 /** Basic layout **/
 * { font-family: Helvetica Neue,sans-serif; }
 
-#gdo-header { position: fixed; width: 100%; background: #eee; border-bottom: 1px solid #fff; padding: 0px 32px; }
+#gdo-header { position: fixed; width: calc(100vw - 256px); background: #eee; border-bottom: 1px solid #fff; padding: 0px 32px; }
 div.gdo-body { padding: 64px 0px 0px; min-height: 100vh; }
 #gdo-footer { background: #eee; }
 
@@ -143,7 +143,7 @@ div.gdt-accordeon { border: 1px dotted #aaa; }
 div.collapse-content { padding: 6px; }
 
 /** Menu **/
-.gdt-menu  > * { margin-left: 16px; display: inline-block; }
+/* .gdt-menu  > * { margin-left: 16px; display: inline-block; } */
 
 /** Loading **/
 .gdt-loading { position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.5; background: #000; z-index: 3; pointer-events: none; }
