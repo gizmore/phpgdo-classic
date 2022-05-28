@@ -1,6 +1,6 @@
 /** Main Layout **/
 body { height: 100%; background: #fff; overflow-x: auto; width: 100%;}
-html { height: 100%; }
+html { height: auto; min-height: 100vh; }
 
 /** UI/GDT_Bar.php **/
 .gdo-bar  { display: flex; flex: 1 1 auto; justify-content: space-around; align-content: center; }

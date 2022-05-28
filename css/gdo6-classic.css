@@ -2,7 +2,7 @@
 * { font-family: Helvetica Neue,sans-serif; }
 
 #gdo-header { position: fixed; width: 100%; background: #eee; border-bottom: 1px solid #fff; padding: 0px 32px; }
-div.gdo-body { padding: 64px 0px 0px; min-height: 100%; }
+div.gdo-body { padding: 64px 0px 0px; min-height: 100vh; }
 #gdo-footer { background: #eee; }
 
 /** Bar **/
