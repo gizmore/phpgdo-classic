@@ -18,12 +18,12 @@ final class Module_Classic extends GDO_Module
 	
 	public function onIncludeScripts() : void
 	{
-		$this->addCSS('css/gdo6.css');
-		$this->addCSS('css/gdo6-sidebar.css');
-		$this->addCSS('css/gdo6-classic.css');
-		$this->addCSS('css/gdo6-pulse.css');
+		$this->addCSS('css/gdo7.css');
+		$this->addCSS('css/gdo7-sidebar.css');
+		$this->addCSS('css/gdo7-classic.css');
+		$this->addCSS('css/gdo7-pulse.css');
 		
-		$this->addJS('js/gdo6-classic.js');
+		$this->addJS('js/gdo7-classic.js');
 	}
 	
 	public function onInitSidebar() : void
