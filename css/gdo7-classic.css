@@ -89,7 +89,6 @@ select { padding: 7px 3px; }
 .gdt-li-content { flex: auto; }
 
 /** Card **/
-.gdo-list-card { }
 .gdo-list-card > .title { padding: 4px 8px 2px; font-size: 20px; background: #ddf; border-bottom: 1px solid #333; }
 .gdt-card { border-bottom: 1px solid #333; border-top: 1px solid #333; margin-bottom: 8px; }
 .gdt-card-upper { display: flex; flex-direction: row; border-bottom: 1px solid #ddd; padding: 8px; }
@@ -178,10 +177,9 @@ table img.gdo-country + span { display: none; }
     border: 1px solid #888;
 }
 
-a {
-	text-decoration: underline;
-}
-
-.gdo-icon[title] {
-	cursor: pointer;
-}
+/** Links **/
+a { text-decoration: underline; }
+.gdt-bar.flx-column span { width:  100%; }
+.gdt_link a { width: 100%; height: 100%; }
+.gdt_link:HOVER { background: #ddd; }
+.gdo-icon[title] { cursor: pointer; }
