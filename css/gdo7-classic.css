@@ -129,6 +129,7 @@ select { padding: 7px 3px; }
 #gdo-pagewrap { width: 100%; height: 100%; }
 footer#gdo-footer, footer#gdo-footer .gdo-bar { min-height: 32px; }
 header#gdo-header, header#gdo-header .gdo-bar { min-height: 64px; z-index: 2; }
+header#gdo-header { width: 100%; }
 
 /** Panel **/
 .gdt-panel { border: 1px solid #444; padding: 6px 14px; margin: 2px; }
