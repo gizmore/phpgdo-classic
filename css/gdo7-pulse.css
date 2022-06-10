@@ -1,4 +1,9 @@
-.gdt-container.gdo-has-error {
+.gdt-form-error {
+	padding: 4px 6px;
+	font-weight: bold;
+}
+
+.gdt-container.has-error {
 	background-color: #fa6;
 	animation-name: pulse-error;
 	animation-duration: 3s;

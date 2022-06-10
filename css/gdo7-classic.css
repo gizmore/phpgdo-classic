@@ -27,8 +27,9 @@ a.gdt-button, input[type=submit], a.gdt-iconbutton {
 a[disabled] { opacity: 0.25; cursor: text; }
 
 /** Form **/
-.gdo-has-error { background: #fa6; }
+.has-error { background: #fa6; }
 .gdt-form { padding: 8px; border: 1px solid #000; }
+.gdt-form label { padding: 4px 6px; font-weight: bold; }
 .gdt-form-slim { padding: 2px 4px; border: none; }
 .gdt-form-slim form { padding: 2px; display: flex; flex-direction: row; align-items: flex-end; flex-wrap: wrap; }
 .gdt-form-slim form > * { padding: 2px; flex-grow: 0; text-align: left; }
@@ -117,11 +118,10 @@ select { padding: 7px 3px; }
 /** Message **/
 .gdo-error-box,
 .gdo-error.gdt-panel,
-.gdo-exception { color: #111; background: #f44; padding: 12px; border: 1px dotted #111; border-radius: 4px; margin: 4px 8px; }
+.gdo-exception { color: #111; background: #f44; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
 .gdo-exception span { color: inherit !important; }
-.gdo-message-box,
-.gdo-success.gdt-panel { background: #cfc; padding: 12px; border: 1px dotted #111; border-radius: 4px; margin: 4px 8px; }
-.gdo-error .gdo-exception { border: none; margin: 0; padding: 0; }
+.gdt-success.gdt-panel { background: #cfc; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
+.gdt-error .gdo-exception { border: none; margin: 0; padding: 0; }
 .gdt-message { word-break: break-word; }
 
 /** Header **/
