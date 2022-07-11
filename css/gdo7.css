@@ -36,7 +36,7 @@ a { color: #33f; font-weight: 900; }
 .gdt-tblorder a { color: #000; }
 .gdt-tblorder a.sel { color: gold; }
 
-/** Core/GDOException **/
+/** Core/GDO_Exception **/
 .gdo-exception {
 	text-align: left;
 }
