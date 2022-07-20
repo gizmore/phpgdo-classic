@@ -20,11 +20,13 @@ div.gdo-body { padding: 64px 0px 0px; min-height: 100vh; }
 
 /** Buttons **/
 .gdt-iconbutton:HOVER { text-decoration: none; }
-a.gdt-button, input[type=submit], a.gdt-iconbutton {
+a.gdt-button, div.gdt-submit, a.gdt-iconbutton {
 	border: 1px ridge gray; background: #ddd; border-radius: 6px; padding: 0px 6px; color: #333; margin: 2px;
-	height: 24px; line-height: 22px; font-size: 16px; font-weight: 500;
+	min-height: 24px; line-height: 22px; font-size: 16px; font-weight: 500;
 }
+div.gdt-submit { display: inline-block; flex-grow: 0; padding: 2px 8px; }
 a[disabled] { opacity: 0.25; cursor: text; }
+input[type=submit] { background: inherit; border: none; padding: 0; margin: 0; }
 
 /** Form **/
 .has-error { background: #fa6; }
@@ -47,12 +49,13 @@ a[disabled] { opacity: 0.25; cursor: text; }
 .gdt-form-title { text-align: center; line-height: 38px; margin-bottom: 6px; background: #eee; }
 input[type=submit]:hover { cursor: pointer; }
 .gdt-form .gdt-link a { padding: 8px; }
-.gdt-form .gdt-divider { padding: 8px; background: #eee; border: 1px solid #fff; font-weight: bold; }
+.gdt-form .gdt-divider { padding: 6px 8px; margin-top: 8px; background: #eee; border: 1px solid #fff; font-weight: bold; }
 input, textarea { padding: 2px 6px; }
 select { padding: 5.8px 4px; }
 input[disabled]:hover,
 textarea[disabled]:hover { cursor: not-allowed; }
-div.gdt-form { margin: 0.5em; padding: 0.5em; border: 4px ridge #aaa; border-radius: 12px; }
+div.gdt-form { margin: 0.5em; border: 4px ridge #aaa; border-radius: 12px; }
+div.gdt-form-inner { padding: 0.5em; }
 
 /** Table **/
 .gdt-tblorder { display: inline-block; }
