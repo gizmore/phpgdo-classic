@@ -16,13 +16,13 @@
 }
 
 #gdo-left-bar {
-	border-right: 1px solid #fff;
+	border-right: 3px ridge #ddd;
 	width: 256px;
 	left: 0;
 }
 
 #gdo-right-bar {
-	border-left: 1px solid #fff;
+	border-left: 3px ridge #ddd;
 	width: 256px;
 	right: 0;
 }
@@ -35,11 +35,29 @@
 	align-self: flex-end;
 	text-align: right;
 }
-#gdo-header .gdo-bar {
-	padding: 0px 42px;
+#gdo-header {
+	position: fixed;
+	width: calc(100vw - 256px);
+	background: #eee;
+	border-bottom: 3px solid #ddd;
+	padding: 0px 32px;
 }
 #gdo-header > * {
 	margin: 0;
+}
+
+#gdo-header .gdo-bar {
+	padding: 0px 42px;
+}
+
+#gdo-footer {
+	background: #eee;
+	border-top: 3px ridge #ddd;
+}
+
+div.gdo-body {
+	padding: 64px 0px 0px;
+	min-height: 100vh;
 }
 
 #gdo-pagewrap {

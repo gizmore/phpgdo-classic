@@ -1,10 +1,6 @@
 /** Basic layout **/
 * { font-family: Helvetica Neue,sans-serif; }
 
-#gdo-header { position: fixed; width: calc(100vw - 256px); background: #eee; border-bottom: 1px solid #fff; padding: 0px 32px; }
-div.gdo-body { padding: 64px 0px 0px; min-height: 100vh; }
-#gdo-footer { background: #eee; }
-
 /** Bar **/
 .gdt-bar { display: flex; padding: 8px; background: #eee; flex-wrap: wrap; }
 .gdt-bar-row { flex-direction: row; }
