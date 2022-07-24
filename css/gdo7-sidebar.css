@@ -40,7 +40,7 @@
 	width: calc(100vw - 256px);
 	background: #eee;
 	border-bottom: 3px solid #ddd;
-	padding: 0px 32px;
+	padding: 0px 64px 0px 32px;
 }
 #gdo-header > * {
 	margin: 0;

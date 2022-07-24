@@ -59,6 +59,7 @@ div.gdt-form h3 { margin-bottom: 0; }
 div.gdt-form-actions .gdt-bar { border-radius: 0 0 8px 8px; border-top: 2px ridge #333; }
 div.gdt-form-compact .gdt-form-fields select,
 div.gdt-form-compact .gdt-form-fields input { min-height: 40px; }
+div.gdt-form .gdt-required { color: red; font-size: 22px; margin-left: 6px; }
 
 /** Table **/
 .gdt-tblorder { display: inline-block; }
@@ -161,9 +162,9 @@ div.collapse-content { padding: 0px; }
 .gdt-panel.gdt-accordeon { padding: 0px; }
 
 /** Loading **/
-.gdt-loading { position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.5; background: #000; z-index: 3; pointer-events: none; }
-.gdt-loading.done { display: none; }
-.gdt-loading span { background: url(ajax-loader.gif) center no-repeat; display: block; height: 100%; }
+#gdt-loading { position: fixed; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.5; background: #000; z-index: 3; pointer-events: none; }
+#gdt-loading.done { display: none; }
+#gdt-loading span { background: url(ajax-loader.gif) center no-repeat; display: block; height: 100%; }
 
 /** File **/
 .gdo-file-controls { padding: 0px 8px; }
