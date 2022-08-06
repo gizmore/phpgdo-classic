@@ -60,6 +60,7 @@ div.gdt-form-actions .gdt-bar { border-radius: 0 0 8px 8px; border-top: 2px ridg
 div.gdt-form-compact .gdt-form-fields select,
 div.gdt-form-compact .gdt-form-fields input { min-height: 40px; }
 div.gdt-form .gdt-required { color: red; font-size: 22px; margin-left: 6px; }
+div.gdt-form .gdt-link a { padding: 8px 4px 0px; }
 
 /** Table **/
 .gdt-tblorder { display: inline-block; }
