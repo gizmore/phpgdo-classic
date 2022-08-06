@@ -132,7 +132,7 @@ div.gdt-form .gdt-required { color: red; font-size: 22px; margin-left: 6px; }
 /** Message **/
 .gdt-error.gdt-panel,
 .gdo-exception { color: #111; background: #f44; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
-.gdo-exception span { color: inherit !important; }
+.gdo-exception span { color: inherit !important; text-decoration: underline; }
 .gdt-success.gdt-panel { background: #cfc; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
 .gdt-error .gdo-exception { border: none; margin: 0; padding: 0; }
 .gdt-message { word-break: break-word; }
@@ -147,6 +147,7 @@ header#gdo-header, header#gdo-header .gdo-bar { min-height: 64px; z-index: 2; }
 /** Panel **/
 .gdt-panel { border: 1px solid #444; padding: 6px 14px; margin: 10px; }
 .gdt-panel > p { margin-bottom: 0px; }
+.gdt-panel h3 { margin-bottom: 0; }
 
 /** Accordeon **/
 .gdt-accordeon.opened .collapse-bar { display: none; }
