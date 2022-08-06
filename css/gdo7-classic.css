@@ -198,3 +198,6 @@ a { text-decoration: underline; }
 .gdt_link a { width: 100%; height: 100%; }
 .gdt_link:HOVER { background: #ddd; }
 .gdo-icon[title] { cursor: pointer; }
+
+/** Code **/
+pre { font-family: monospace; }
