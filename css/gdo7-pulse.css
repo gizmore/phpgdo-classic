@@ -1,23 +1,26 @@
 .gdt-form-error {
 	padding: 4px 6px;
-	font-weight: bold;
 }
 
 .gdt-container.has-error {
-	background-color: #fa6;
+	margin: 8px -8px;
+	padding: 8px;
+	border-radius: 8px;
+	
+	background-color: #fc9;
 	animation-name: pulse-error;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
+	animation-duration: 4s;
+	animation-iteration-count: 3;
 }
 
 @keyframes pulse-error {
   0% {
-    background-color: #fa6;
+    background-color: #fc9;
   }
   50% {
-    background-color: #f44;
+    background-color: #f33;
   }
-  100 {
-    background-color: #fa6;
+  100% {
+    background-color: #fc9;
   }
 }
