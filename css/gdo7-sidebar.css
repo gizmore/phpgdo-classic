@@ -69,10 +69,16 @@ div.gdo-body {
 	left: 0;
 	z-index: 2;
 }
+
+.gdo-main {
+	border: 8px ridge #fefeff;
+}
+
 .gdo-nav {
 	position: absolute;
 	clip: rect(0, 0, 0, 0);
 }
+
 label[for="gdo-left-nav"]{
 	top: 0px;
 	left: 0px;

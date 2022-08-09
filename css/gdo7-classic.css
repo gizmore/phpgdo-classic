@@ -2,14 +2,21 @@
 * { font-family: Helvetica Neue,sans-serif; }
 
 /** Bar **/
-.gdt-bar { display: flex; padding: 8px; background: #eee; flex-wrap: wrap; }
+.gdt-bar { display: flex; padding: 0px; background: #eee; flex-wrap: wrap; }
 .gdt-bar-row { flex-direction: row; }
 .gdt-bar-column { flex-direction: column; }
-.gdt-bar > * { flex-grow: 1; text-align: center; }
+.gdt-bar > * { flex-grow: 1; text-align: center; padding: 8px; }
 .gdo-body .gdt-bar-row { border-bottom: 1px solid #fff; }
+.gdt-bar .gdt_link,
+.gdt-bar .gdt-button { padding: 0; }
+.gdt-bar .gdt_link a,
+.gdt-bar .gdt-button a { padding: 8px; }
+
+.gdt-bar.flx-row .gdt-button a {
+line-height: 42px; }
 
 /** Header **/
-header .gdt_link a { height: 42px; line-height: 42px; }
+/* header .gdt_link a { height: 42px; line-height: 42px; } */
 .gdo-main .gdt-headline { margin: 4px; background: #eee; padding: 4px 16px; }
     
 /** Rosa Container **/
@@ -26,11 +33,12 @@ a.gdt-button, div.gdt-submit, a.gdt-iconbutton {
 	border: 1px ridge gray; background: #ddd; border-radius: 6px; padding: 0px 6px; color: #333; margin: 2px;
 	min-height: 24px; line-height: 22px; font-size: 16px; font-weight: 500;
 }
-div.gdt-submit { display: inline-block; flex-grow: 0; padding: 2px 8px; }
+div.gdt-submit { display: inline-block; flex-grow: 0; padding: 0; min-width: 96px; }
 a[disabled] { opacity: 0.25; cursor: text; }
 input[type=submit] { background: inherit; border: none; padding: 0; margin: 0; }
 .gdt-button a { width: 100%; height: 100%; }
-.gdt-button a:hover { background: #fff; }
+.gdt-button a:hover,
+.gdt-submit:hover { background: #bba; }
 
 /** Form **/
 .has-error { background: #fa6; }
@@ -42,10 +50,10 @@ input[type=submit] { background: inherit; border: none; padding: 0; margin: 0; }
 .gdt-form-slim select { min-width: 120px; }
 .gdt-form-compact input,
 .gdt-form-compact select { min-width: 164px; min-height: 42px; font-size: 20px; }
-.gdt-form input[type=submit] { min-width: auto; }
+.gdt-form input[type=submit] { min-width: auto; width: 100%; }
 .gdt-form-slim .gdt-container { padding: 0px 0px; }
+.gdt-form-compact .gdt-container.has-error { border: 1px dashed #833; }
 .gdt-form .gdt-container > i.fa,
-/* .gdt-form .gdt-container > label, */
 .gdt-form .gdt-container > .gdo-icon { display: inline-block; }
 .gdt-form .gdt-container > label { display: block; }
 .gdt-form .gdo-required label:before { content: '*'; }
@@ -66,11 +74,9 @@ div.gdt-form-text > p { margin-bottom: 0; }
 div.gdt-form-fields { padding: 16px; }
 div.gdt-form h3 { margin-bottom: 0; }
 div.gdt-form-actions .gdt-bar { border-radius: 0 0 8px 8px; border-top: 2px ridge #333; }
-/* div.gdt-form-compact .gdt-form-fields select, */
-/* div.gdt-form-compact .gdt-form-fields input { min-width: 128px; min-height: 42px; width: auto; } */
 div.gdt-form .gdt-required { color: red; font-size: 22px; margin-left: 6px; }
 div.gdt-form .gdt_link a { padding: 0 4px; }
-div.gdt-form-fields > .gdt-container { margin-right: auto; }
+/* div.gdt-form-fields > .gdt-container { margin-right: auto; } */
 
 /** Table **/
 .gdt-tblorder { display: inline-block; }
@@ -94,7 +100,7 @@ div.gdt-form-fields > .gdt-container { margin-right: auto; }
 .gdo-table-caption h3 { width: 100%; display: inline-block; }
 
 /** HR **/
-.gdt-divider h5 { margin: 0; }
+.gdt-divider h5 { margin: 0; font-size: 20px; }
 
 /** Pagemenu **/
 .gdo-pagemenu ul { display: flex; margin: 0 4px; }
@@ -158,8 +164,8 @@ header#gdo-header, header#gdo-header .gdo-bar { min-height: 64px; z-index: 2; }
 
 /** Panel **/
 .gdt-panel { border: 1px solid #444; padding: 6px 14px; margin: 10px; }
-.gdt-panel > p { margin-bottom: 0px; }
-.gdt-panel h3 { margin-bottom: 0; }
+.gdt-panel > p { margin-bottom: 0; }
+.gdt-panel h3 { margin-bottom: 0.5rem; }
 
 /** Accordeon **/
 .gdt-accordeon.opened .collapse-bar { display: none; }
@@ -185,8 +191,12 @@ div.collapse-content { padding: 0px; }
 .gdo-file-preview img { max-width: 32vw; max-height: 24vh; border: 2px dashed #aaa; }
 
 /** Country **/
-.gdo-country { width: 38px; height: 24px; }
-table img.gdo-country + span { display: none; }
+.gdo-country img { width: 38px; height: 24px; }
+.gdt-panel .gdo-country img { width: 18px; height: 13px; }
+table .gdo-country img + span { display: none; }
+
+/** Language **/
+
 
 /** Badge **/
 .gdo-badge {
