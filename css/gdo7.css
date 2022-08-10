@@ -3,29 +3,22 @@ body { height: 100%; background: #fff; overflow-x: auto; width: 100%;}
 html { height: auto; min-height: 100vh; }
 
 /** UI/GDT_Bar.php **/
-.gdo-bar  { display: flex; flex: 1 1 auto; justify-content: space-around; align-content: center; }
-.gdo-bar-column { flex-direction: column; text-align: center; }
-.gdo-bar-row { flex-direction: row; flex-wrap: wrap; }
-.gdo-bar > * { display: block; text-align: center; align-self: center; flex-grow: 1; }
+/* .gdo-bar  { display: flex; flex: 1 1 auto; justify-content: space-around; align-content: center; } */
+/* .gdo-bar-column { flex-direction: column; text-align: center; } */
+/* .gdo-bar-row { flex-direction: row; flex-wrap: wrap; } */
+/* .gdo-bar > * { display: block; text-align: center; align-self: center; flex-grow: 1; } */
 
 /** General **/
 pre { white-space: pre-wrap; }
 a { color: #33f; font-weight: 900; }
 
-/** Always show left menu on large devices */
-@media only screen and (min-width: 1024px) {
-	#gdo-pagewrap { margin-left: 256px; width: calc(100% - 256px)!important; min-width: 320px!important; }
-	#gdo-header { width: calc(100vw - 274px)!important; }
-	label[for="gdo-left-nav"] { display: none; }
-	#gdo-left-bar { z-index: 2; }
-	#gdo-right-nav:checked ~ #gdo-right-bar { z-index: 3; left: auto; width: 256px;}
-}
 
 /** GDT_Page NAV **/
-#gdo-header h1, #gdo-header h2, #gdo-header h3, #gdo-header h4, #gdo-header h5 {
-	line-height: 44px; 
-	margin: 0;
-}
+#gdo-header h1,
+#gdo-header h2,
+#gdo-header h3,
+#gdo-header h4,
+#gdo-header h5 { line-height: 44px; margin: 0; }
 
 /** UI/GDT_Message **/
 .gdt-message textarea { width: 100%; height: 180px; }

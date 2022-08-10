@@ -36,6 +36,15 @@
 	text-align: right;
 }
 
+/** Always show left menu on large devices */
+@media only screen and (min-width: 1024px) {
+	#gdo-pagewrap { margin-left: 256px; width: calc(100% - 256px)!important; min-width: 320px!important; }
+	#gdo-header { width: calc(100vw - 274px)!important; }
+	label[for="gdo-left-nav"] { display: none; }
+	#gdo-left-bar { z-index: 2; }
+	#gdo-right-nav:checked ~ #gdo-right-bar { z-index: 3; left: auto; width: 256px;}
+}
+
 /** Header **/
 #gdo-pagewrap { width: 100%; height: 100%; }
 footer#gdo-footer,
@@ -58,7 +67,6 @@ header#gdo-header .gdo-bar {
 	margin-bottom: 0;
 	padding-right: 64px;
 }
-
 
 @media only screen and (max-width: 1023px) {
 	#gdo-header { padding-left: 64px; }
