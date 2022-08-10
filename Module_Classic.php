@@ -28,7 +28,7 @@ final class Module_Classic extends GDO_Module
 	public function onInitSidebar() : void
 	{
 		GDT_Page::instance()->topBar()->addField(
-			GDT_Headline::make()->level(2)->textRaw(GDO_SITENAME));
+			GDT_Headline::make()->level(2)->textRaw(sitename()));
 	}
 	
 }
