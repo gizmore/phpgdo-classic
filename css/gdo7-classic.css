@@ -12,6 +12,8 @@
 .gdt-bar .gdt-link a,
 .gdt-bar .gdt-button a { padding: 8px; }
 .gdt-bar.flx-row .gdt-button a { line-height: 42px; }
+.gdt-bar.flx-row { border-bottom: 1px solid #999; }
+.gdt-bar.flx-row:last-child { border-bottom: none; }
 
 /** Header **/
 .gdo-main .gdt-headline { margin: 4px; background: #eee; padding: 4px 16px; }
@@ -89,7 +91,7 @@ div.gdt-form-actions { background: #eee; padding-top: 1px; padding-bottom: 2px; 
 .gdt-table th select { display: block; width: 100%; }
 .gdt-table th { vertical-align: bottom; }
 .gdt-table { overflow: auto; display: inline-block; }
-.gdt-table table { border-collapse: collapse; margin: 0px; }
+.gdt-table table { border-collapse: collapse; margin: 0px; word-break: break-all; }
 .gdt-table thead { background: #ccb; }
 .gdt-table tbody tr:nth-child(even) { background: #ddd; }
 .gdt-table tbody tr:nth-child(odd) { background: #eee; }
@@ -161,7 +163,7 @@ div.gdt-form-actions { background: #eee; padding-top: 1px; padding-bottom: 2px; 
 /** Menu **/
 .gdt-menu .gdt-link a,
 .gdt-menu .gdt-button a { padding: 8px 16px; }
-.gdt-menu { border-top: 1px solid #444447; }
+/* .gdt-menu { border-top: 1px solid #444447; } */
 
 /** Captcha **/
 .gdt-captcha input { float: left; }
@@ -173,6 +175,7 @@ div.gdt-form-actions { background: #eee; padding-top: 1px; padding-bottom: 2px; 
 /** Message **/
 .gdt-error.gdt-panel,
 .gdo-exception { color: #111; background: #f44; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
+.gdo-exception pre { white-space: pre; overflow: auto; }
 .gdo-exception span { color: inherit !important; text-decoration: underline; }
 .gdt-success.gdt-panel { background: #cfc; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
 .gdt-error .gdo-exception { border: none; margin: 0; padding: 0; }
