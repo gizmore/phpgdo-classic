@@ -17,7 +17,9 @@
 
 /** Header **/
 .gdo-main .gdt-headline { margin: 4px; background: #eee; padding: 4px 16px; }
-    
+.gdo-main { padding: 8px; }
+.gdo-main > h3 { margin-bottom: 8px; }
+
 /** Rosa Container **/
 .gdt-container.flx.flx-row.flx-shrink > * { margin-right: 8px; }
  
