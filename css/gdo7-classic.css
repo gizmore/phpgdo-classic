@@ -201,7 +201,7 @@ div.gdt-form-actions { background: #eee; padding-top: 1px; padding-bottom: 2px; 
 .gdt-accordeon .uncollapse-bar:hover,
 .gdt-accordeon .collapse-bar:hover { cursor: pointer; }
 div.gdt-accordeon { border: 1px dotted #aaa; }
-div.collapse-content { padding: 0px; }
+div.collapse-content { padding: 1rem; }
 .gdt-accordeon .title { padding: 4px 6px; }
 .gdt-panel.gdt-accordeon { padding: 0px; }
 
