@@ -26,6 +26,8 @@
 /** Sidebar **/
 #gdo-left-bar .gdt-divider,
 #gdo-right-bar .gdt-divider { background: #333; height: 1px; width: 100%; margin-top: 6px; }
+.gdo-nav-bar { overflow: scroll; }
+
 
 /** Icons **/
 .gdo-icon { padding: 0 4px; min-width: 26px; text-align: center; }
