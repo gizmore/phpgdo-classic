@@ -9,6 +9,7 @@ for (var i = 0; i < len; i++) {
 	c[i].onclick = function() {
 		this.parentNode.classList.remove('closed');
 		this.parentNode.classList.add('opened');
+		GDO.triggerResize();
 	};
 }
 
@@ -18,6 +19,7 @@ for (var i = 0; i < len; i++) {
 	c[i].onclick = function() {
 		this.parentNode.classList.remove('opened');
 		this.parentNode.classList.add('closed');
+		GDO.triggerResize();
 	};
 }
 
