@@ -227,6 +227,7 @@ div.collapse-content { padding: 1rem; }
 .gdo-country img { width: 38px; height: 24px; }
 .gdt-panel .gdo-country img { width: 18px; height: 13px; }
 table .gdo-country img + span { display: none; }
+.gdo-country img + span { padding-left: 8px; } 
 
 /** Language **/
 
@@ -247,6 +248,8 @@ table .gdo-country img + span { display: none; }
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     border: 1px solid #888;
 }
+
+div.gdt-color { display: inline-block; font-weight: bolder; padding: 0px 8px; text-shadow: black 2px 2px; }
 
 /** Links **/
 a { text-decoration: underline; }
