@@ -57,14 +57,14 @@ input[type=submit] { background: inherit; border: none; }
 .gdt-form-slim form > * { padding: 2px; flex-grow: 0; text-align: left; }
 .gdt-form-slim select { min-width: 120px; }
 .gdt-form-compact input,
-.gdt-form-compact select { min-width: 148px; min-height: 42px; font-size: 20px; max-width: calc(100vw - 94px); }
+.gdt-form-compact select { min-width: 168px; min-height: 42px; font-size: 20px; max-width: calc(100vw - 94px); }
 .gdt-form-compact div.gdt-submit { display: flex; flex-direction: row; align-items: center; min-width: 0px; }
 .gdt-form-compact div.gdt-submit span.gdo-icon { padding: 0 4px 0 6px; text-align: center; font-size: 22px; }
 .gdt-form-compact div.gdt-submit input { padding: 0 12px 0 0; min-width: auto; }
 .gdt-form-compact div.gdt-submit > input:first-child { padding: 0 12px; }
 .gdt-form input[type=date],
 .gdt-form input[type=time],
-.gdt-form input[type=number] { width: 148px; }
+.gdt-form input[type=number] { width: 168px; }
 .gdt-form-slim .gdt-container { padding: 0px 0px; }
 .gdt-form-compact .gdt-container.has-error { border: 1px dashed #833; }
 .gdt-form .gdt-container > i.fa,
@@ -192,9 +192,9 @@ div.gdt-form-actions { background: #eee; padding-top: 1px; padding-bottom: 2px; 
 .gdo-exception { color: #111; background: #f44; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
 .gdo-exception pre { white-space: pre; overflow: auto; }
 .gdo-exception span { color: inherit !important; text-decoration: underline; }
-.gdt-success.gdt-panel { background: #cfc; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
 .gdt-error .gdo-exception { border: none; margin: 0; padding: 0; }
 .gdt-message { word-break: break-word; }
+.gdt-success.gdt-panel { background: #cfc; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; margin-bottom: 16px; }
 
 /** Panel **/
 .gdt-panel { border: 1px solid #444; padding: 6px 14px; margin: 8px 8px 2px; }
