@@ -256,11 +256,12 @@ div.gdt-color { display: inline-block; font-weight: bolder; padding: 0px 8px; te
 
 /** Links **/
 a { text-decoration: underline; }
-/* .gdt-bar.flx-col span { width:  100%; } */
+a:hover { text-decoration: none; }
+nav span.gdt-link { width: 100%; }
 .gdt-link a { width: 100%; height: 100%; }
 .gdt-link:hover { background: #ddd; }
 .gdo-icon[title] { cursor: pointer; }
 
 /** Code **/
-pre,
-code { font-family: monospace; }
+.gdt-pre,
+pre, code { font-family: monospace; white-space: pre-wrap; }
