@@ -235,9 +235,10 @@ table .gdo-country img + span { display: none; }
 
 
 /** Badge **/
-.gdo-badge {
+i.gdt-badge,
+.gdt-badge label + i {
 	color: #212529;
-    background-color: #ddd;
+    background-color: #fdd;
     display: inline-block;
     padding: 6px 6px;
     font-size: 75%;
@@ -246,7 +247,7 @@ table .gdo-country img + span { display: none; }
     text-align: center;
     white-space: nowrap;
     vertical-align: baseline;
-    border-radius: 8px;
+    border-radius: 12px;
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
     border: 1px solid #888;
 }
@@ -255,7 +256,7 @@ div.gdt-color { display: inline-block; font-weight: bolder; padding: 0px 8px; te
 
 /** Links **/
 a { text-decoration: underline; }
-.gdt-bar.flx-col span { width:  100%; }
+/* .gdt-bar.flx-col span { width:  100%; } */
 .gdt-link a { width: 100%; height: 100%; }
 .gdt-link:hover { background: #ddd; }
 .gdo-icon[title] { cursor: pointer; }
