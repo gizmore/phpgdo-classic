@@ -42,7 +42,7 @@
 	#gdo-header { width: calc(100vw - 274px)!important; }
 	label[for="gdo-left-nav"] { display: none; }
 	#gdo-left-bar { z-index: 2; }
-	#gdo-right-nav:checked ~ #gdo-right-bar { z-index: 3; left: auto; width: 256px;}
+	#gdo-right-nav:checked ~ #gdo-right-bar { xyz-index: 3; left: auto; width: 256px;}
 }
 
 /** Header **/

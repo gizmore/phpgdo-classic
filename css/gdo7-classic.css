@@ -29,7 +29,7 @@
 /** Sidebar **/
 #gdo-left-bar .gdt-divider,
 #gdo-right-bar .gdt-divider { background: #333; height: 1px; width: 100%; margin-top: 6px; }
-.gdo-nav-bar { overflow: scroll; }
+.gdo-nav-bar { overflow: auto; }
 
 
 /** Icons **/
