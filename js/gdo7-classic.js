@@ -13,7 +13,7 @@ for (var i = 0; i < len; i++) {
 	};
 }
 
-c = document.querySelectorAll('.gdt-accordeon .uncollapse-bar');
+var c = document.querySelectorAll('.gdt-accordeon .uncollapse-bar');
 var len = c.length;
 for (var i = 0; i < len; i++) {
 	c[i].onclick = function() {
@@ -23,4 +23,15 @@ for (var i = 0; i < len; i++) {
 	};
 }
 
-/** Dialog **/
+/**
+ * Clicking on <span submit> triggers <input>
+ */
+var c = document.querySelectorAll('div.gdt-submit');
+var len = c.length;
+for (var i = 0; i < len; i++) {
+	var btn = c[i];
+	btn.onclick = function() {
+		btn.querySelector('input[type=submit]').click();
+	};
+}
+ 
