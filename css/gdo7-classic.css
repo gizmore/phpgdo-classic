@@ -197,12 +197,13 @@ div.gdt-form-actions { background: #eee; padding-top: 1px; padding-bottom: 2px; 
 .gdo-exception span { color: inherit !important; text-decoration: underline; }
 .gdt-error .gdo-exception { border: none; margin: 0; padding: 0; }
 .gdt-message { word-break: break-word; }
-.gdt-success.gdt-panel { background: #cfc; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; margin-bottom: 16px; }
+.gdt-success.gdt-panel { background: #cfc; padding: 8px 12px; border: 1px dotted #111; border-radius: 4px; }
 
 /** Panel **/
-.gdt-panel { border: 1px solid #444; padding: 6px 14px; margin: 8px 8px 2px; }
+.gdt-panel { border: 1px solid #444; padding: 6px 14px; margin: 8px 8px 0px; }
 .gdt-panel > p { margin-bottom: 0; }
 .gdt-panel h3 { margin-bottom: 0.5rem; }
+/* .gdt-panel:nth-child(2) { margin-top: 0.5rem;} */
 
 /** Accordeon **/
 .gdt-accordeon.opened .collapse-bar { display: none; }
