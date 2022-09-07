@@ -54,7 +54,7 @@ footer#gdo-footer .gdo-bar {
 header#gdo-header,
 header#gdo-header .gdo-bar {
 	min-height: 64px;
-	z-index: 2;
+	z-index: 25;
 }
 /* #gdo-left-nav:checked ~ #gdo-header { */
 /* 	width: calc(100vw - 336px); */
@@ -120,7 +120,7 @@ label[for="gdo-right-nav"]{
 }
 label[for="gdo-left-nav"],
 label[for="gdo-right-nav"] {
-	z-index: 3;
+	z-index: 30;
 	position: fixed;
 	width: 30px;
 	height: 30px;
@@ -186,6 +186,3 @@ label[for="gdo-right-nav"] {
 	display: block!important;
 	right: 256px;
 }
-
-#gdo-left-nav:checked .gdo-main,
-#gdo-right-nav:checked .gdo-main { filter: blur(1px); }
