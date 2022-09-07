@@ -186,3 +186,6 @@ label[for="gdo-right-nav"] {
 	display: block!important;
 	right: 256px;
 }
+
+#gdo-left-nav:checked .gdo-main,
+#gdo-right-nav:checked .gdo-main { filter: blur(1px); }
