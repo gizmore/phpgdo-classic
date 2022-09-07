@@ -1,6 +1,8 @@
 /** GDOv7 Classic (c)2022 gizmore@wechall.net **/
 * { font-family: Helvetica Neue,sans-serif; }
 
+img { max-width: 100%; }
+
 /** Bar **/
 .gdt-bar { display: flex; padding: 0px; background: #eee; flex-wrap: wrap; }
 .gdt-bar-row { flex-direction: row; }
