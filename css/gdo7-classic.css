@@ -99,7 +99,9 @@ div.gdt-form-error { padding: 4px 6px; }
 div.gdt-form-compact .gdt-container.has-error { margin: 8px -8px; padding: 8px; border-radius: 8px; }
 div.gdt-form-actions { background: #eee; padding-top: 1px; padding-bottom: 2px; border-top: 2px solid #333; }
 div.gdt-form input,
-div.gdt-form select { border-color: #ccc; border-radius: 4px; border-style: solid; border-width: 1px; box-shadow: 0 1px 2px rgb(0 0 0 / 10%) inset; color: #555; float: none; padding: 6px 12px; }
+div.gdt-form select { border-color: #ccc; border-radius: 4px; border-style: solid; border-width: 1px; box-shadow: 0 1px 2px rgb(0 0 0 / 10%) inset; color: #555; float: none; padding: 8px 12px; background: #fff; }
+div.gdt-form input:disabled,
+div.gdt-form select:disabled { background: #d5d5d5; border: 1px dotted #333; }
 
 /** Table **/
 .gdt-tblorder { display: inline-block; }
