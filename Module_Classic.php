@@ -4,6 +4,7 @@ namespace GDO\Classic;
 use GDO\Core\GDO_Module;
 use GDO\UI\GDT_Page;
 use GDO\UI\GDT_Headline;
+use GDO\UI\GDT_Link;
 
 /**
  * Install this module to load the classic css theme.
@@ -28,7 +29,7 @@ final class Module_Classic extends GDO_Module
 	public function onInitSidebar() : void
 	{
 		GDT_Page::instance()->topBar()->addField(
-			GDT_Headline::make()->level(2)->textRaw(sitename()));
+			GDT_Link::make('home')->label('sitename')->href(hrefDefault()));
 	}
 	
 }

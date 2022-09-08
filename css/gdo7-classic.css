@@ -25,6 +25,8 @@ img { max-width: 100%; }
 .gdo-main > h3 { margin-bottom: 8px; }
 .gdo-main hr { margin: 1rem; }
 
+#gdo-header .gdt-link { font-size: 24px; line-height: 44px; }
+
 /** Rosa Container **/
 .gdt-container.flx.flx-row.flx-shrink > * { margin-right: 8px; }
  
