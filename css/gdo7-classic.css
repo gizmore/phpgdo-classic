@@ -152,6 +152,8 @@ div.gdt-form select:disabled { background: #d5d5d5; border: 1px dotted #333; }
 .gdt-list-item:last-child { border-bottom: 1px solid #333; }
 .gdt-li-content { flex: auto; }
 .gdt-list-item.unread { background-color: #F1E5AC; }
+.gdt-li-footer { padding: 4px; line-height: 18px; }
+.gdt-li-footer .gdt-profile-link { vertical-align: middle; }
 
 /** Card **/
 .gdo-list-card > .title { padding: 4px 8px 2px; font-size: 20px; background: #ddf; border-bottom: 1px solid #333; }

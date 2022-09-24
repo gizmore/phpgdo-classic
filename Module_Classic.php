@@ -3,7 +3,6 @@ namespace GDO\Classic;
 
 use GDO\Core\GDO_Module;
 use GDO\UI\GDT_Page;
-use GDO\UI\GDT_Headline;
 use GDO\UI\GDT_Link;
 
 /**
