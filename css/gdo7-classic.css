@@ -81,7 +81,7 @@ input[type=submit] { background: inherit; border: none; }
 input[type=submit]:hover { cursor: pointer; }
 .gdt-form .gdt-link a { padding: 8px; }
 .gdt-form .gdt-divider { padding: 6px 8px; background: #eee; border: 1px dotted #333; font-weight: bold; margin: 8px 0; }
-input, textarea { padding: 2px 6px; }
+input, textarea { padding: 8px 8px; }
 .gdt-form-fields { padding: 6px 4px; }
 input[disabled]:hover,
 textarea[disabled]:hover,
