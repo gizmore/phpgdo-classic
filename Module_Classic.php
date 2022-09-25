@@ -4,6 +4,7 @@ namespace GDO\Classic;
 use GDO\Core\GDO_Module;
 use GDO\UI\GDT_Page;
 use GDO\UI\GDT_Link;
+use GDO\Core\Application;
 
 /**
  * Install this module to load the classic css theme.
@@ -18,11 +19,14 @@ final class Module_Classic extends GDO_Module
 	
 	public function onIncludeScripts() : void
 	{
-		$this->addJS('js/gdo7-classic.js');
-		$this->addCSS('css/gdo7.css');
-		$this->addCSS('css/gdo7-sidebar.css');
-		$this->addCSS('css/gdo7-classic.css');
-		$this->addCSS('css/gdo7-pulse.css');
+		if (Application::$INSTANCE->hasTheme('classic'))
+		{
+			$this->addJS('js/gdo7-classic.js');
+			$this->addCSS('css/gdo7.css');
+			$this->addCSS('css/gdo7-sidebar.css');
+			$this->addCSS('css/gdo7-classic.css');
+			$this->addCSS('css/gdo7-pulse.css');
+		}
 	}
 	
 	public function onInitSidebar() : void
