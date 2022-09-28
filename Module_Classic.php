@@ -15,7 +15,7 @@ use GDO\Core\Application;
  */
 final class Module_Classic extends GDO_Module
 {
-	public int $priority = 99;
+	public int $priority = 50;
 	
 	public function onIncludeScripts() : void
 	{
