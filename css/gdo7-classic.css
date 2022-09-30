@@ -31,6 +31,8 @@ img { max-width: 100%; }
 .gdt-container.flx.flx-row.flx-shrink > * { margin-right: 8px; }
  
 /** Sidebar **/
+#gdo-left-bar,
+#gdo-right-bar { padding-bottom: 8px; }
 #gdo-left-bar .gdt-divider,
 #gdo-right-bar .gdt-divider { background: #333; height: 1px; width: 100%; margin-top: 6px; }
 .gdo-nav-bar { overflow: auto; }
