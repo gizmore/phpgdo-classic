@@ -1,7 +1,8 @@
 /** GDOv7 Classic (c)2022 gizmore@wechall.net **/
 * { font-family: Helvetica Neue,sans-serif; }
 
-img { max-width: 100%; }
+img,
+.gdt-svg-image object { max-width: 100%; }
 
 /** Bar **/
 .gdt-bar { display: flex; padding: 0px; background: #eee; flex-wrap: wrap; }
@@ -187,6 +188,7 @@ p.gdt-list-text { color: #fff; padding: 8px; }
 .gdt-card-fields .gdo-country img { float: left; }
 .gdt-card-label,
 .gdt-card-fields label { font-weight: bold; }
+.gdt-card .gdt-url.gdt-empty a { font-weight: normal; }
 
 /** Tabs **/
 .gdt-tabs h3 { background: #eef; padding: 8px; }

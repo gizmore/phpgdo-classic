@@ -19,11 +19,15 @@ final class Module_Classic extends GDO_Module
 	
 	public function onIncludeScripts() : void
 	{
+		global $me;
 		if (Application::$INSTANCE->hasTheme('classic'))
 		{
 			$this->addJS('js/gdo7-classic.js');
 			$this->addCSS('css/gdo7.css');
-			$this->addCSS('css/gdo7-sidebar.css');
+			if ($me->isSidebarEnabled())
+			{
+				$this->addCSS('css/gdo7-sidebar.css');
+			}
 			$this->addCSS('css/gdo7-classic.css');
 			$this->addCSS('css/gdo7-pulse.css');
 		}
