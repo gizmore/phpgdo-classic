@@ -136,8 +136,8 @@ div.gdt-form select:disabled { background: #d5d5d5; border: 1px dotted #333; }
 
 /** Pagemenu **/
 .gdo-pagemenu ul { display: flex; margin: 0 4px; }
-.gdo-pagemenu li { flex: 0 0 auto; padding: 8px; height: 36px; line-height: 20px; display: block; min-width: 36px; }
-.gdo-pagemenu a { width: 100%; height: 100%; display: inline-block; text-align: center; }
+.gdo-pagemenu li { flex: 0 0 auto; height: 36px; line-height: 20px; display: block; min-width: 36px; }
+.gdo-pagemenu a { width: 100%; height: 100%; padding: 8px; display: inline-block; text-align: center; }
 .gdo-pagemenu li.page-selected a, .gdo-pagemenu a:hover { color: #000; background: #eee; }
 
 /** Lists **/
