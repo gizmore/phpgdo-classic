@@ -181,6 +181,7 @@ p.gdt-list-text { color: #fff; padding: 8px; }
 .gdt-card-label,
 .gdt-card-message,
 .gdt-card .gdt-link,
+.gdt-card .gdt-headline,
 .gdt-card .gdt-accordeon,
 .gdt-card .gdt-paragraph { grid-column-start: 1; grid-column-end: 3; }
 .gdt-card p { margin: 0; }
@@ -189,6 +190,7 @@ p.gdt-list-text { color: #fff; padding: 8px; }
 .gdt-card-label,
 .gdt-card-fields label { font-weight: bold; }
 .gdt-card .gdt-url.gdt-empty a { font-weight: normal; }
+.gdt-card-fields > .gdt-container { display: contents; }
 
 /** Tabs **/
 .gdt-tabs h3 { background: #eef; padding: 8px; }
