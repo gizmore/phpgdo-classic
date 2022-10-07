@@ -34,4 +34,5 @@ for (var i = 0; i < len; i++) {
 		btn.querySelector('input[type=submit]').click();
 	};
 }
- 
+
+//document.querySelector('[name='+location.hash+']');

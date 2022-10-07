@@ -182,6 +182,8 @@ p.gdt-list-text { color: #fff; padding: 8px; }
 .gdt-card-message,
 .gdt-card .gdt-link,
 .gdt-card .gdt-headline,
+.gdt-card .gdt-divider,
+.gdt-card .gdt-panel,
 .gdt-card .gdt-accordeon,
 .gdt-card .gdt-paragraph { grid-column-start: 1; grid-column-end: 3; }
 .gdt-card p { margin: 0; }
