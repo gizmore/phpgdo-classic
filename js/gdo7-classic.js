@@ -35,4 +35,14 @@ for (var i = 0; i < len; i++) {
 	};
 }
 
+/**
+ * Toggle the thumbs up/down icon for checkboxes on change.
+ */
+var c = document.querySelectorAll('.gdt-cbx select');
+var len = c.length;
+for (var i = 0; i < len; i++) {
+	c[i].onselect = (event) => {
+		debugger;
+	};
+}
 //document.querySelector('[name='+location.hash+']');
