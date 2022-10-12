@@ -26,14 +26,14 @@ for (var i = 0; i < len; i++) {
 /**
  * Clicking on <span submit> triggers <input>
  */
-var c = document.querySelectorAll('div.gdt-submit');
-var len = c.length;
-for (var i = 0; i < len; i++) {
-	var btn = c[i];
-	btn.onclick = function() {
-		btn.querySelector('input[type=submit]').click();
-	};
-}
+//var c = document.querySelectorAll('div.gdt-submit');
+//var len = c.length;
+//for (var i = 0; i < len; i++) {
+//	var btn = c[i];
+//	btn.onclick = function() {
+//		btn.querySelector('input[type=submit]').click();
+//	};
+//}
 
 /**
  * Toggle the thumbs up/down icon for checkboxes on change.
