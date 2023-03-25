@@ -18,6 +18,12 @@ final class Module_Classic extends GDO_Module
 
 	public int $priority = 50;
 
+	public function getTheme(): ?string
+	{
+		return 'classic';
+	}
+
+
 	public function onIncludeScripts(): void
 	{
 		global $me;
