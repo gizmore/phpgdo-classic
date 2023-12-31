@@ -969,3 +969,7 @@ pre, code {
     font-family: monospace;
     white-space: pre-wrap;
 }
+
+th.gdt-country select {
+    width: 96px;
+}

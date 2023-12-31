@@ -40,10 +40,10 @@ final class Module_Classic extends GDO_Module
 		}
 	}
 
-	public function onInitSidebar(): void
-	{
-		GDT_Page::instance()->topBar()->addField(
-			GDT_Link::make('home')->text('sitename')->href(hrefDefault()));
-	}
+//	public function onInitSidebar(): void
+//	{
+//		GDT_Page::instance()->topBar()->addField(
+//			GDT_Link::make('home')->text('sitename')->href(hrefDefault()));
+//	}
 
 }
