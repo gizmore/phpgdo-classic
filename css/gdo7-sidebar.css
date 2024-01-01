@@ -206,7 +206,7 @@ label[for="gdo-right-nav"] {
 #gdo-pagewrap #gdo-right-nav2 {
     top: 0px;
     position: fixed;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     opacity: 0.5;
     background: #000;
