@@ -134,6 +134,7 @@ div.gdt-submit {
     flex-grow: 0;
     padding: 0;
     min-width: 96px;
+    background: #f8f8f8;
 }
 
 a[disabled] {
@@ -202,12 +203,12 @@ input[type=submit] {
     max-width: calc(100vw - 94px);
 }
 
-.gdt-form-compact div.gdt-submit {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    min-width: 0px;
-}
+/*.gdt-form-compact div.gdt-submit {*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-items: center;*/
+    /*min-width: 0px;*/
+/*}*/
 
 .gdt-form-compact div.gdt-submit span.gdo-icon {
     padding: 0 4px 0 6px;
@@ -366,15 +367,15 @@ div.gdt-form-actions {
 
 div.gdt-form input,
 div.gdt-form select {
-    border-color: #ccc;
-    border-radius: 4px;
-    border-style: solid;
-    border-width: 1px;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 10%) inset;
+    /*border-color: #ccc;*/
+    /*border-radius: 4px;*/
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+    /*box-shadow: 0 1px 2px rgb(0 0 0 / 10%) inset;*/
     color: #555;
-    float: none;
+    /*float: none;*/
     padding: 8px 12px;
-    background: #fff;
+    /*background: #fff;*/
 }
 
 div.gdt-form input:disabled,
